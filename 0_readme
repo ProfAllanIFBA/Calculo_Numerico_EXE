@@ -9,5 +9,5 @@ GERANDO UM EXECUTÁVEL .EXE (PyCharm)
 [1] Para gerar um arquivo executável coloque todos os arquivos em um mesmo diretório.
 [2] No terminal digite
    [2.1] pip install pyinstaller
-   [2.2] pyinstaller --onefile mestre.py
+   [2.2] pyinstaller --onefile --windowed mestre.py
 [3] O arquivo exe encontra-se na pasta dist
