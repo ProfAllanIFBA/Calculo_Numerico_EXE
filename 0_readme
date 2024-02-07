@@ -1,0 +1,13 @@
+RODANDO A PRIMEIRA VEZ (no PyCharm)
+Crie um projeto com o nome que achar mais conveniente:
+[1] Baixe todos os arquivos deste repositório e coloque no repositório do projeto.
+[2] No terminal instale as bibliotecas, PySimpleGUI, webbrowser, os, numpy (e mais alguma se eu esqueci - aparecerá como
+erro acusando a falta do módulo - algumas podem não necessitar instalação)
+[3] Rode o arquivo mestre.py
+
+GERANDO UM EXECUTÁVEL .EXE (PyCharm)
+[1] Para gerar um arquivo executável coloque todos os arquivos em um mesmo diretório.
+[2] No terminal digite
+   [2.1] pip install pyinstaller
+   [2.2] pyinstaller --onefile mestre.py
+[3] O arquivo exe encontra-se na pasta dist
